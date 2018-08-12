@@ -15,5 +15,5 @@ class EmailParser
   end
 end
 
-parser = EmailParser.new("bbouslama@outlook.com", "bbouslama@outlook.com")
+parser = EmailParser.new("bbouslama@outlook.com, bbouslama@outlook.com")
 parser.parse
