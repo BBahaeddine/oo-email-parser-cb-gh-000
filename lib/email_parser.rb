@@ -11,7 +11,7 @@ class EmailParser
   
   def parse
     # binding.pry
-    return @emails.split(/[\s,]/).reject!{|item| item.empty?}.uniq!
+    return @emails.split(/[\s,]/).reject!{|item| item.empty?}
   end
 end
 
